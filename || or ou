@@ -1,0 +1,10 @@
+void main() {
+  int idade = 18;
+  bool temCarteira = true;
+  
+  if( idade < 18 || temCarteira == false ){
+    print( "Não pode dirigir" );
+  } else {
+    print( "Pode dirigir" );
+  }
+}
